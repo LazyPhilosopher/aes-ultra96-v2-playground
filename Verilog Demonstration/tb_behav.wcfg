@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="399.501 ns"></ZoomEndTime>
+      <Cursor1Time time="150.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="155"></NameColumnWidth>
+      <ValueColumnWidth column_width="105"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject type="array" fp_name="/tb/a">
+      <obj_property name="ElementShortName">a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/var1">
+      <obj_property name="ElementShortName">var1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">var1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/var2">
+      <obj_property name="ElementShortName">var2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">var2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/var3">
+      <obj_property name="ElementShortName">var3</obj_property>
+      <obj_property name="ObjectShortName">var3</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/t1">
+      <obj_property name="ElementShortName">t1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">t1[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/t2">
+      <obj_property name="ElementShortName">t2</obj_property>
+      <obj_property name="ObjectShortName">t2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/din1">
+      <obj_property name="ElementShortName">din1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">din1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/din2">
+      <obj_property name="ElementShortName">din2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">din2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/add">
+      <obj_property name="ElementShortName">add[4:0]</obj_property>
+      <obj_property name="ObjectShortName">add[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/sub">
+      <obj_property name="ElementShortName">sub[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/mul">
+      <obj_property name="ElementShortName">mul[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mul[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/sdin1">
+      <obj_property name="ElementShortName">sdin1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sdin1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/sdin2">
+      <obj_property name="ElementShortName">sdin2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sdin2[3:0]</obj_property>
+   </wvobject>
+</wave_config>

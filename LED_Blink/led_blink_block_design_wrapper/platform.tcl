@@ -75,3 +75,4 @@ platform generate
 bsp reload
 bsp reload
 bsp reload
+platform active {led_blink_block_design_wrapper}

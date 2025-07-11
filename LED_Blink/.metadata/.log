@@ -21928,3 +21928,87 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-20: Launc
 
 !ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 13:58:01.699
 !MESSAGE XSCT command with result: [bsp reload], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:00:18.263
+!MESSAGE XSCT Command: [disconnect tcfchan#15], Thread: Thread-2382
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:00:18.264
+!MESSAGE XSCT Command: [disconnect tcfchan#15], Thread: Thread-2384
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:00:18.266
+!MESSAGE XSCT command with result: [disconnect tcfchan#15], Result: [null, ]. Thread: Thread-2382
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:00:18.266
+!MESSAGE XSCT command with result: [disconnect tcfchan#15], Result: [{Format=channel "tcfchan#15" closed, Time=1752235218266, Code=1}, ]. Thread: Thread-2384
+!SESSION 2025-07-11 14:00:40.268 -----------------------------------------------
+eclipse.buildId=2021.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2025-07-11 14:00:40.604
+!MESSAGE Bundle reference:file:org.apache.log4j_1.2.15.v201012070815.jar not found.
+
+!ENTRY org.eclipse.osgi 4 0 2025-07-11 14:00:40.626
+!MESSAGE Bundle reference:file:org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar not found.
+
+!ENTRY org.eclipse.ui 4 4 2025-07-11 14:00:57.953
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.890
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.891
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.897
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.966
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.966
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.967
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.967
+!MESSAGE XSCT Command: [setws /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink], Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.967
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.970
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2022.1/data]. Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.984
+!MESSAGE XSCT command with result: [setws /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink], Result: [null, ]. Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.988
+!MESSAGE XSCT Command: [platform read {/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/platform.spr}], Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:01.992
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa], Thread: Worker-2: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:06.598
+!MESSAGE XSCT command with result: [platform read {/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:06.598
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa], Result: [null, ]. Thread: Worker-2: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:06.599
+!MESSAGE XSCT Command: [platform active {led_blink_block_design_wrapper}], Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-07-11 14:01:06.599
+!MESSAGE XSCT command with result: [platform active {led_blink_block_design_wrapper}], Result: [null, ]. Thread: Worker-1: Initializing the platform to enable editing
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-07-11 14:01:07.960
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-07-11 14:01:07.960
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-07-11 14:01:07.960
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

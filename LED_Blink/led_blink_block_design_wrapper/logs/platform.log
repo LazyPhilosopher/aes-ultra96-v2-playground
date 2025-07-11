@@ -18013,3 +18013,585 @@ TRACE::2025-07-11.13:58:01::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Doc
 
 TRACE::2025-07-11.13:58:01::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
 TRACE::2025-07-11.13:58:01::SCWMssOS::Removing the swdes entry for  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:01::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:01::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:01::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:02::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:02::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:02::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:02::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened new HwDB with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWReader::Active system found as  led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWReader::Handling sysconfig led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWDomain::checking for install qemu data   : 
+TRACE::2025-07-11.14:01:06::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2025-07-11.14:01:06::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2025-07-11.14:01:06::SCWDomain:: Using the PMUQEMU args from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWReader::Boot application domain added for zynqmp_fsbl
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-07-11.14:01:06::SCWMssOS::No sw design opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::mss exists loading the mss file  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Opened the sw design from mss  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Adding the swdes entry /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss with des name system
+TRACE::2025-07-11.14:01:06::SCWMssOS::updating the scw layer about changes
+TRACE::2025-07-11.14:01:06::SCWMssOS::Opened the sw design.  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS:: library already available in sw design:  xilffs:4.7
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS:: library already available in sw design:  xilsecure:4.7
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS:: library already available in sw design:  xilpm:4.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Saving the mss changes /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-07-11.14:01:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-07-11.14:01:06::SCWMssOS::Commit changes completed.
+TRACE::2025-07-11.14:01:06::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-07-11.14:01:06::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWReader::No isolation master present  
+TRACE::2025-07-11.14:01:06::SCWDomain::checking for install qemu data   : 
+TRACE::2025-07-11.14:01:06::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2025-07-11.14:01:06::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2025-07-11.14:01:06::SCWDomain:: Using the PMUQEMU args from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWReader::Boot application domain added for zynqmp_pmufw
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::No sw design opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::mss exists loading the mss file  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Opened the sw design from mss  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Adding the swdes entry /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss with des name system_0
+TRACE::2025-07-11.14:01:06::SCWMssOS::updating the scw layer about changes
+TRACE::2025-07-11.14:01:06::SCWMssOS::Opened the sw design.  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS:: library already available in sw design:  xilfpga:6.2
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS:: library already available in sw design:  xilsecure:4.7
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS:: library already available in sw design:  xilskey:7.3
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Saving the mss changes /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-07-11.14:01:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-07-11.14:01:06::SCWMssOS::Commit changes completed.
+TRACE::2025-07-11.14:01:06::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-07-11.14:01:06::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWReader::No isolation master present  
+TRACE::2025-07-11.14:01:06::SCWDomain::checking for install qemu data   : 
+TRACE::2025-07-11.14:01:06::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2025-07-11.14:01:06::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2025-07-11.14:01:06::SCWDomain:: Using the PMUQEMU args from install at  : /tools/Xilinx/Vitis/2022.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::No sw design opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::mss exists loading the mss file  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Opened the sw design from mss  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Adding the swdes entry /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss with des name system_1
+TRACE::2025-07-11.14:01:06::SCWMssOS::updating the scw layer about changes
+TRACE::2025-07-11.14:01:06::SCWMssOS::Opened the sw design.  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss|system_1||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss|system_1||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss|system_1||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss|system_1||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Saving the mss changes /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-07-11.14:01:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-07-11.14:01:06::SCWMssOS::Commit changes completed.
+TRACE::2025-07-11.14:01:06::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-07-11.14:01:06::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to open the hw design at /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA given /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA absoulate path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform::DSA directory /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Platform Path /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/hw/led_blink_block_design_wrapper.xsa
+TRACE::2025-07-11.14:01:06::SCWPlatform:: Unique name xilinx:ultra96v2::0.0
+TRACE::2025-07-11.14:01:06::SCWPlatform::Trying to set the existing hwdb with name led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Opened existing hwdb led_blink_block_design_wrapper
+TRACE::2025-07-11.14:01:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-07-11.14:01:06::SCWMssOS::Checking the sw design at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWMssOS::DEBUG:  swdes dump  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss|system_1||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-07-11.14:01:06::SCWMssOS::Sw design exists and opened at  /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/system.mss
+TRACE::2025-07-11.14:01:06::SCWReader::No isolation master present  
