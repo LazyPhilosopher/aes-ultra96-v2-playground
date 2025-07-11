@@ -74,3 +74,4 @@ platform generate -quick
 platform generate
 bsp reload
 bsp reload
+bsp reload
