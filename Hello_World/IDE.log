@@ -1,0 +1,84 @@
+14:39:25 DEBUG : Logs will be stored at '/home/call_me_utka/Documents/Projects/HDL/Hello_World/IDE.log'.
+14:39:26 INFO  : Launching XSCT server: xsct -n  -interactive /home/call_me_utka/Documents/Projects/HDL/Hello_World/temp_xsdb_launch_script.tcl
+14:39:26 INFO  : Registering command handlers for Vitis TCF services
+14:39:26 INFO  : Platform repository initialization has completed.
+14:39:28 INFO  : XSCT server has started successfully.
+14:39:28 INFO  : Successfully done setting XSCT server connection channel  
+14:39:28 INFO  : plnx-install-location is set to ''
+14:39:28 INFO  : Successfully done query RDI_DATADIR 
+14:39:28 INFO  : Successfully done setting workspace for the tool. 
+14:40:10 INFO  : Result from executing command 'getProjects': hello_world_block_design_wrapper
+14:40:10 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+14:40:10 WARN  : An unexpected exception occurred in the module 'platform project logging'
+14:40:10 INFO  : Platform 'hello_world_block_design_wrapper' is added to custom repositories.
+14:40:16 INFO  : Platform 'hello_world_block_design_wrapper' is added to custom repositories.
+14:41:14 INFO  : Result from executing command 'getProjects': hello_world_block_design_wrapper
+14:41:14 INFO  : Result from executing command 'getPlatforms': hello_world_block_design_wrapper|/home/call_me_utka/Documents/Projects/HDL/Hello_World/hello_world_block_design_wrapper/export/hello_world_block_design_wrapper/hello_world_block_design_wrapper.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+14:41:17 INFO  : Checking for BSP changes to sync application flags for project 'Hello_World_Application'...
+14:41:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:41:49 INFO  : Jtag cable 'Avnet USB-to-JTAG/UART Pod V1 1234-oj1A' is selected.
+14:41:49 INFO  : 'jtag frequency' command is executed.
+14:41:49 INFO  : Sourcing of '/tools/Xilinx/Vitis/2022.1/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:41:49 INFO  : Context for 'APU' is selected.
+14:41:50 INFO  : System reset is completed.
+14:41:53 INFO  : 'after 3000' command is executed.
+14:41:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet USB-to-JTAG/UART Pod V1 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-USB-to-JTAG/UART Pod V1-1234-oj1A-14710093-0"}' command is executed.
+14:41:56 INFO  : Device configured successfully with "/home/call_me_utka/Documents/Projects/HDL/Hello_World/Hello_World_Application/_ide/bitstream/hello_world_block_design_wrapper.bit"
+14:41:56 INFO  : Context for 'APU' is selected.
+14:41:56 INFO  : Hardware design and registers information is loaded from '/home/call_me_utka/Documents/Projects/HDL/Hello_World/hello_world_block_design_wrapper/export/hello_world_block_design_wrapper/hw/hello_world_block_design_wrapper.xsa'.
+14:41:56 INFO  : 'configparams force-mem-access 1' command is executed.
+14:41:56 INFO  : Context for 'APU' is selected.
+14:41:56 INFO  : Boot mode is read from the target.
+14:41:56 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:41:56 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:41:57 INFO  : The application '/home/call_me_utka/Documents/Projects/HDL/Hello_World/hello_world_block_design_wrapper/export/hello_world_block_design_wrapper/sw/hello_world_block_design_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:41:57 INFO  : 'set bp_41_57_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:41:57 INFO  : 'con -block -timeout 60' command is executed.
+14:41:57 INFO  : 'bpremove $bp_41_57_fsbl_bp' command is executed.
+14:41:57 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:41:57 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:41:57 INFO  : The application '/home/call_me_utka/Documents/Projects/HDL/Hello_World/Hello_World_Application/Debug/Hello_World_Application.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:41:57 INFO  : 'configparams force-mem-access 0' command is executed.
+14:41:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /tools/Xilinx/Vitis/2022.1/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Avnet USB-to-JTAG/UART Pod V1 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-USB-to-JTAG/UART Pod V1-1234-oj1A-14710093-0"}
+fpga -file /home/call_me_utka/Documents/Projects/HDL/Hello_World/Hello_World_Application/_ide/bitstream/hello_world_block_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/call_me_utka/Documents/Projects/HDL/Hello_World/hello_world_block_design_wrapper/export/hello_world_block_design_wrapper/hw/hello_world_block_design_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow /home/call_me_utka/Documents/Projects/HDL/Hello_World/hello_world_block_design_wrapper/export/hello_world_block_design_wrapper/sw/hello_world_block_design_wrapper/boot/fsbl.elf
+set bp_41_57_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_41_57_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow /home/call_me_utka/Documents/Projects/HDL/Hello_World/Hello_World_Application/Debug/Hello_World_Application.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:41:57 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:41:57 INFO  : 'con' command is executed.
+14:41:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:41:57 INFO  : Launch script is exported to file '/home/call_me_utka/Documents/Projects/HDL/Hello_World/Hello_World_Application_system/_ide/scripts/systemdebugger_hello_world_application_system_standalone.tcl'
+14:42:14 INFO  : Disconnected from the channel tcfchan#3.
+23:14:54 DEBUG : Logs will be stored at '/home/call_me_utka/Documents/Projects/HDL/Hello_World/IDE.log'.
+23:14:55 INFO  : Launching XSCT server: xsct -n  -interactive /home/call_me_utka/Documents/Projects/HDL/Hello_World/temp_xsdb_launch_script.tcl
+23:14:56 INFO  : Registering command handlers for Vitis TCF services
+23:14:56 INFO  : Platform repository initialization has completed.
+23:14:57 INFO  : XSCT server has started successfully.
+23:14:57 INFO  : plnx-install-location is set to ''
+23:14:57 INFO  : Successfully done setting XSCT server connection channel  
+23:14:57 INFO  : Successfully done query RDI_DATADIR 
+23:14:57 INFO  : Successfully done setting workspace for the tool. 

@@ -1,0 +1,10 @@
+13:54:51 **** Build of configuration Debug for project LED_blink_application_system ****
+make all 
+Generating bif file for the system project
+Executing command '::scw::generate_bif -xpfm /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/export/led_blink_block_design_wrapper/led_blink_block_design_wrapper.xpfm -domains standalone_psu_cortexa53_0 -bifpath /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/LED_blink_application_system/Debug/system.bif' on XSCT
+sdcard_gen --xpfm /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/export/led_blink_block_design_wrapper/led_blink_block_design_wrapper.xpfm --sys_config led_blink_block_design_wrapper --bif /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/LED_blink_application_system/Debug/system.bif --bitstream /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/LED_blink_application/_ide/bitstream/led_blink_block_design_wrapper.bit --elf /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/LED_blink_application/Debug/LED_blink_application.elf,psu_cortexa53_0
+creating BOOT.BIN using /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/LED_blink_application/_ide/bitstream/led_blink_block_design_wrapper.bit
+Running /tools/Xilinx/Vitis/2022.1/bin/bootgen -arch zynqmp -image /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/LED_blink_application_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+13:54:56 Build Finished (took 5s.335ms)
+

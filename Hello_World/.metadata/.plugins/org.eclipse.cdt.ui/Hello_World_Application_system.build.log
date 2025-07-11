@@ -1,0 +1,10 @@
+14:41:21 **** Build of configuration Debug for project Hello_World_Application_system ****
+make all 
+Generating bif file for the system project
+Executing command '::scw::generate_bif -xpfm /home/call_me_utka/Documents/Projects/HDL/Hello_World/hello_world_block_design_wrapper/export/hello_world_block_design_wrapper/hello_world_block_design_wrapper.xpfm -domains standalone_psu_cortexa53_0 -bifpath /home/call_me_utka/Documents/Projects/HDL/Hello_World/Hello_World_Application_system/Debug/system.bif' on XSCT
+sdcard_gen --xpfm /home/call_me_utka/Documents/Projects/HDL/Hello_World/hello_world_block_design_wrapper/export/hello_world_block_design_wrapper/hello_world_block_design_wrapper.xpfm --sys_config hello_world_block_design_wrapper --bif /home/call_me_utka/Documents/Projects/HDL/Hello_World/Hello_World_Application_system/Debug/system.bif --bitstream /home/call_me_utka/Documents/Projects/HDL/Hello_World/Hello_World_Application/_ide/bitstream/hello_world_block_design_wrapper.bit --elf /home/call_me_utka/Documents/Projects/HDL/Hello_World/Hello_World_Application/Debug/Hello_World_Application.elf,psu_cortexa53_0
+creating BOOT.BIN using /home/call_me_utka/Documents/Projects/HDL/Hello_World/Hello_World_Application/_ide/bitstream/hello_world_block_design_wrapper.bit
+Running /tools/Xilinx/Vitis/2022.1/bin/bootgen -arch zynqmp -image /home/call_me_utka/Documents/Projects/HDL/Hello_World/Hello_World_Application_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:41:27 Build Finished (took 5s.327ms)
+

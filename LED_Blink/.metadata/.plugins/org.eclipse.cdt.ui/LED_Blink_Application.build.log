@@ -1,0 +1,26 @@
+13:48:54 **** Incremental Build of configuration Debug for project LED_Blink_Application ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/export/led_blink_block_design_wrapper/sw/led_blink_block_design_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/export/led_blink_block_design_wrapper/sw/led_blink_block_design_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: LED_Blink_Application.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/led_blink_block_design_wrapper/export/led_blink_block_design_wrapper/sw/led_blink_block_design_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "LED_Blink_Application.elf" ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: LED_Blink_Application.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size LED_Blink_Application.elf  |tee "LED_Blink_Application.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30228	   2048	  20676	  52952	   ced8	LED_Blink_Application.elf
+Finished building: LED_Blink_Application.elf.size
+ 
+
+13:48:55 Build Finished (took 381ms)
+

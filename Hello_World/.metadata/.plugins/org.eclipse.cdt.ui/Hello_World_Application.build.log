@@ -1,0 +1,26 @@
+14:41:20 **** Build of configuration Debug for project Hello_World_Application ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/call_me_utka/Documents/Projects/HDL/Hello_World/hello_world_block_design_wrapper/export/hello_world_block_design_wrapper/sw/hello_world_block_design_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/home/call_me_utka/Documents/Projects/HDL/Hello_World/hello_world_block_design_wrapper/export/hello_world_block_design_wrapper/sw/hello_world_block_design_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: Hello_World_Application.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/call_me_utka/Documents/Projects/HDL/Hello_World/hello_world_block_design_wrapper/export/hello_world_block_design_wrapper/sw/hello_world_block_design_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "Hello_World_Application.elf" ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World_Application.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size Hello_World_Application.elf  |tee "Hello_World_Application.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30236	   2048	  20668	  52952	   ced8	Hello_World_Application.elf
+Finished building: Hello_World_Application.elf.size
+ 
+
+14:41:21 Build Finished (took 371ms)
+

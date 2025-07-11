@@ -1,0 +1,6 @@
+13:50:09 **** Incremental Build of configuration Debug for project LED_Blink_Application_system ****
+make all 
+Skipping SD card image generation. Reason: The system project does not have any applications
+
+13:50:09 Build Finished (took 232ms)
+
