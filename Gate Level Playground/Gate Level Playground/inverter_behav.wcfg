@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="inverter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="inverter" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,213.405 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000,157.320 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="155"></NameColumnWidth>
+      <ValueColumnWidth column_width="97"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject type="logic" fp_name="/inverter/vin">
+      <obj_property name="ElementShortName">vin</obj_property>
+      <obj_property name="ObjectShortName">vin</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/inverter/vout">
+      <obj_property name="ElementShortName">vout</obj_property>
+      <obj_property name="ObjectShortName">vout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/inverter/vdd">
+      <obj_property name="ElementShortName">vdd</obj_property>
+      <obj_property name="ObjectShortName">vdd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/inverter/gnd">
+      <obj_property name="ElementShortName">gnd</obj_property>
+      <obj_property name="ObjectShortName">gnd</obj_property>
+   </wvobject>
+</wave_config>

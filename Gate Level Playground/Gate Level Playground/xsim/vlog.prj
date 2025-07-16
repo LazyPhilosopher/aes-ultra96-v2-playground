@@ -1,0 +1,8 @@
+verilog xil_defaultlib  \
+"/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Gate Level Playground/Gate Level Playground/Gate Level Playground.srcs/sources_1/new/inverter.v" \
+"/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Gate Level Playground/Gate Level Playground/Gate Level Playground.srcs/sources_1/new/nand.v" \
+"/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Gate Level Playground/Gate Level Playground/Gate Level Playground.srcs/sources_1/new/and.v" \
+
+verilog xil_defaultlib "/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Gate Level Playground/Gate Level Playground/xsim/glbl.v"
+
+nosort

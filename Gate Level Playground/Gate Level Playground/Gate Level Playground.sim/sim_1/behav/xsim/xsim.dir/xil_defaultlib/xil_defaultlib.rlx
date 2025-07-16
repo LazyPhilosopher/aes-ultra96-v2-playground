@@ -1,0 +1,8 @@
+0.7
+2020.2
+Apr 18 2022
+15:53:03
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Gate Level Playground/Gate Level Playground/Gate Level Playground.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Gate Level Playground/Gate Level Playground/Gate Level Playground.srcs/sources_1/new/and.v,1752691908,verilog,,,,and2,,,,,,,,
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Gate Level Playground/Gate Level Playground/Gate Level Playground.srcs/sources_1/new/inverter.v,1752691124,verilog,,/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Gate Level Playground/Gate Level Playground/Gate Level Playground.srcs/sources_1/new/nand.v,,inverter,,,,,,,,
+/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Gate Level Playground/Gate Level Playground/Gate Level Playground.srcs/sources_1/new/nand.v,1752691912,verilog,,/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Gate Level Playground/Gate Level Playground/Gate Level Playground.srcs/sources_1/new/and.v,,nand2,,,,,,,,

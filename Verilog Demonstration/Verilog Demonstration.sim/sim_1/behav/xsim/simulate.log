@@ -1,0 +1,22 @@
+Time resolution is 1 ps
+==Value assignment==
+Monitoring a: 9 @ 0
+Value of a:9 @ 10000
+Value of a:9 @ 10000
+Monitoring a: 1 @ 10000
+Value of a:10 @ 20000
+Monitoring a: 10 @ 20000
+Value of a:10 @ 30000
+==Datatype demonstration ==
+Value of var1:255
+Value of var2:-23
+Value of var3:12.560000
+Value of t1:110000
+Value of t2:110230
+==Verilog operators==
+Value of add: 11 sub: -1 and mul: 30
+and: 0100 or: 0111 xor: 0011 xnor: 1100
+din1: 0101 and din2: 0110
+sdin1: 0001 and sdin2: 1010
+concat: 01010110
+repetition: 011001100110
