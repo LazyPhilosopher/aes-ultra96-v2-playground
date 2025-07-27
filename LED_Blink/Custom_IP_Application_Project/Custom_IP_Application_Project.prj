@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Custom_IP_Application_Project" location="/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/Custom_IP_Application_Project" platform="/home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/LED_Blink/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm" platformUID="xilinx:ultra96v2::0.0(custom)" systemProject="Custom_IP_Application_Project_system" sysConfig="design_1_wrapper" runtime="cpp" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="3a88b0dd7b8c137fbcc8f3e8c41f0d35">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.1707275802">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.330827731" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Jul 24 17:08:08 2025
+# Process ID: 10031
+# Current directory: /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Custom_IP/Custom_IP.runs/impl_1
+# Command line: vivado -log blink.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source blink.tcl -notrace
+# Log file: /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Custom_IP/Custom_IP.runs/impl_1/blink.vdi
+# Journal file: /home/call_me_utka/Documents/Projects/aes-ultra96-v2-playground/Custom_IP/Custom_IP.runs/impl_1/vivado.jou
+# Running On: call-me-utka, OS: Linux, CPU Frequency: 4637.907 MHz, CPU Physical cores: 16, Host memory: 67335 MB
+#-----------------------------------------------------------
+source blink.tcl -notrace

@@ -1,0 +1,19 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-173,-113",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_LED -pg 1 -lvl 2 -x 780 -y 290 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 450 -y 90 -defaultsOSRD
+preplace inst blink_0 -pg 1 -lvl 1 -x 450 -y 290 -defaultsOSRD
+preplace netloc Net 1 0 2 10 180 760
+preplace netloc blink_0_led 1 1 1 N 290
+levelinfo -pg 1 -10 450 780
+pagesize -pg 1 -db -bbox -sgen -10 -260 860 350
+"
+}
+{
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
